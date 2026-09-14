@@ -1,10 +1,15 @@
 {
-  "versionName": "1.1.1.31",
-  "versionCode": 95,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.31.apk",
-  "size": 13225863,
-  "sha256": "d3ed3a3fd632c2d37062f2b5a00368406ebd163863d02c9300eaff9b19fd4ed4",
+  "versionName": "1.1.1.32",
+  "versionCode": 96,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.32.apk",
+  "size": 13225882,
+  "sha256": "95e0a63f9edf5265664a5b4248a8f50db1416a02d75367c0df85d9faca5449b4",
   "notes": [
+    {
+      "t": "修一个我自己捅的更新 bug：查更新连了 github（国内超时）",
+      "d": "上一版我改发布配置时，把**编译进 App 的清单地址**一起改成了 GitHub —— 而国内连 github.com 会超时，结果手机上点「检查更新」直接报「连不上 github.com」。现在改回 Gitee（那个地址只放一份几 KB 的清单，Gitee 完全够用），APK 本身仍放在 GitHub 的 CDN 上（大文件只有那边能匿名下载）。这一版之后更新检查恢复正常。",
+      "why": "更新又能用了"
+    },
     {
       "t": "她真的知道自己的长相了（这条上上版我写早了，现在才成立）",
       "d": "上一版我写了「你问她长什么样，她答得出」—— 其实那次**只做了描述，没接进聊天**，所以那句话当时是不成立的。这次补上了：捏完脸（或者按照片生成完），她的「人设」里就带上了长相 —— 脸偏宽还是偏窄、下巴尖还是圆、眼睛大还是细、嘴大还是小、鼻子挺不挺，一共九项。你问她「你长什么样」「我今天好看吗」，她答的是真的，不是编的。另外她「照镜子」（自己看一眼）也会看到这些。",
