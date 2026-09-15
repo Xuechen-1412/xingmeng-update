@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.64",
-  "versionCode": 128,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/Xuechen-1412/xingmeng-update/master/xingmeng-1.1.1.64.apk",
-  "size": 22804639,
-  "sha256": "15b33d67c9b54f32cb62b153458ff9278453d90590aa97bd24554371fcba4ca1",
+  "versionName": "1.1.1.65",
+  "versionCode": 129,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.65.apk",
+  "size": 18205682,
+  "sha256": "984c7e1326241665d689d9e239f67ddd984109fe867641b8037981c21e7fe581",
   "notes": [
     {
-      "t": "消息能撤回了（B3）",
-      "d": "长按自己刚发的那条消息（2 分钟内）→ 确认 → **双方都消失**，显示成「你撤回了一条消息 / 对方撤回了一条消息」。跟微信的规矩一样：只能撤自己发的、超过 2 分钟撤不回。⚠️ 这个功能要用服务端一个字段，**需要你在 Supabase 跑一句 SQL**（我上一条发给你的那句 ✓ 没跑的话点了会提示撤回失败 ✓ 不影响别的功能）。",
-      "why": "发错了能收回来"
+      "t": "包瘦了 4.4MB（21.75 → 17.36）",
+      "d": "这版把包里一份**永远用不到**的原生库删掉了：那个库是给 x86 模拟器用的（9.34MB ✗），你的手机是 arm64、根本不会加载它 —— 但它一直躺在安装包里占体积。顺带把 Live2D 模块也只编 arm64 了。结果：**21.75MB → 17.36MB**，下载更快、装得也更快。功能一个没少：聊天、星梦页的 Live2D 形象、3D 形象、无障碍操作全都在。",
+      "why": "下载和安装都快了 20%"
     }
   ]
 }
