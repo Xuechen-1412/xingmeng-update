@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.45",
-  "versionCode": 109,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.45.apk",
-  "size": 17232781,
-  "sha256": "ec2158b85ae4d179375274bead3d0a82dcd1ea1204a2d8e5b44c71fddc209f83",
+  "versionName": "1.1.1.48",
+  "versionCode": 112,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.48.apk",
+  "size": 17434173,
+  "sha256": "0b6d93958f1c311d80e3fd732b5f174e3d6fcb21889c4b8a96da49f87c074a54",
   "notes": [
     {
-      "t": "Live2D 接进来了：这次是真的模型",
-      "d": "星梦页那块原生画布不再是三角了 —— Cubism SDK（Core + Framework + 官方示例的模型加载器）已经编进 App，模型用的是 SDK 自带的 Haru（会呼吸、会眨眼、有物理摆动）。这一版要你帮忙确认两件事：① **Haru 有没有出现在形象的位置**（位置偏不偏）；② **会不会动**（呼吸起伏 / 眨眼）。说明里说的「待机动作」还没接（那是下一步）。",
-      "why": "星梦页第一次出现真正会动的角色"
+      "t": "撤回 Live2D：真机上会闪退，先退回来保证 App 能用",
+      "d": "这次给星梦页接的 Live2D（真模型渲染）在模拟器上跑通了 —— 模型加载、动作加载、位置对齐、透明浮层全对，但**真机上闪退**：崩溃发生在原生库内部的模型加载链上（arm64 特有的问题，还没定位到具体一行）。因为它是 App 的一部分，一崩就是整个 App 崩 ✗ 这是我的设计失误 —— **可选功能不该有能力把主程序带崩**。现在把 Live2D 整个退出构建（代码留在仓库里，改天接着查），App 回到你熟悉的样子：星梦页、聊天、星梦院、状态、我的全部正常，包体也回到 16.6MB。",
+      "why": "先保证 App 能正常用"
     }
   ]
 }
