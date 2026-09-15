@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.63",
-  "versionCode": 127,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/Xuechen-1412/xingmeng-update/master/xingmeng-1.1.1.63.apk",
+  "versionName": "1.1.1.64",
+  "versionCode": 128,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/Xuechen-1412/xingmeng-update/master/xingmeng-1.1.1.64.apk",
   "size": 22804639,
   "sha256": "15b33d67c9b54f32cb62b153458ff9278453d90590aa97bd24554371fcba4ca1",
   "notes": [
     {
-      "t": "表情包更顺手了（B2）",
-      "d": "一个很小的改动但每天都用得上：**你最近用过的表情会自动排到最前面**。私聊、群聊、频道三个表情面板共用同一份顺序，所以在哪儿发都一样；关掉 App 再打开还记得。以前每次都要在几百个表情里翻半天，现在常用的就在头一排。",
-      "why": "发表情不用翻半天了"
+      "t": "消息能撤回了（B3）",
+      "d": "长按自己刚发的那条消息（2 分钟内）→ 确认 → **双方都消失**，显示成「你撤回了一条消息 / 对方撤回了一条消息」。跟微信的规矩一样：只能撤自己发的、超过 2 分钟撤不回。⚠️ 这个功能要用服务端一个字段，**需要你在 Supabase 跑一句 SQL**（我上一条发给你的那句 ✓ 没跑的话点了会提示撤回失败 ✓ 不影响别的功能）。",
+      "why": "发错了能收回来"
     }
   ]
 }
