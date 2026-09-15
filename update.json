@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.94",
-  "versionCode": 158,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.94.apk",
-  "size": 18229711,
-  "sha256": "14e1fa23cf2ac9a74e41eabda85b8f6aa370b75a4d0dc2fbcd666e48650f31af",
+  "versionName": "1.1.1.95",
+  "versionCode": 159,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.95.apk",
+  "size": 18229979,
+  "sha256": "d9dbbc4fd7cc88eeadc0bfdaf3fdf62b53ee4a430416058b614e69135ab236d4",
   "notes": [
     {
-      "t": "修：星梦页那行文字仍然溢出（这次找到了真原因）",
-      "d": "上一版我加了\"两行截断\"但**界面一点没变** ✗ 因为那行文字的样式是用 **id** 写的（`#petLastLine` ✓）而我的规则用的是 class ✗ —— **id 的优先级比 class 高** ✗ 我那条被压住了 ✗。现在直接按 id 写 ✓ 优先级对等 + 我的文件后加载 → 生效 ✓ 那行现在最多两行、超出省略 ✓ 稳稳待在卡片里 ✓ 「去聊天」按钮也回来了 ✓",
-      "why": "星梦页那行文字真的不溢出了"
+      "t": "修：星梦页那行文字溢出（按你说的：给边界，到边界就往下写）",
+      "d": "你给的办法是对的 ✓ 我前面绕了三圈都在想\"怎么截断\" ✗ 而真正的问题是\"**它为什么不肯换行**\" ✓ —— 那行文字在原有样式里被设成了**不换行**（配合省略号用的 ✗）所以我加截断一点用都没有 ✗。现在给它：**一个边界（不超过卡片宽 ✓）+ 到边界就往下写** ✓ 一长串英文数字也能断 ✓ 折行后最多两行再长才省略 ✓。",
+      "why": "那行文字会自己折行了，不再顶出卡片"
     }
   ]
 }
