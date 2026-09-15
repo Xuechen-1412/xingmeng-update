@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.55",
-  "versionCode": 119,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/Xuechen-1412/xingmeng-update/master/xingmeng-1.1.1.55.apk",
-  "size": 22799012,
-  "sha256": "60cd94370698aa96b92cc3155c6b9ea68df9bb2e36efecaea188db07ec1f59d9",
+  "versionName": "1.1.1.57",
+  "versionCode": 121,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/Xuechen-1412/xingmeng-update/master/xingmeng-1.1.1.57.apk",
+  "size": 22800895,
+  "sha256": "c499019702e93589939c8259e02e7b22d14e434c86f8a35c328c3682251a7d5d",
   "notes": [
     {
-      "t": "给 Live2D 加了个本地开关（关掉就回到平面形象）",
-      "d": "Live2D 是原生渲染 —— 万一某个机型上它出问题，那是整个 App 崩，网页这边拦不住（JS 抓不到原生崩溃）。所以留一个本地开关：关掉之后**连原生都不碰**，星梦页回到原来那张平面形象，绝对不会崩。用法：出问题时在控制台跑一句 localStorage.setItem('pet.live2d.on', 'false') 就立刻生效。这是我上一版的设计失误补上的（可选功能不该有能力把主程序带崩）。",
-      "why": "万一它出问题，你能立刻关掉"
+      "t": "她的开关进了设置页 + 她一说话会动",
+      "d": "两件：① **「我的」页多了一行「Live2D 形象」开关** —— 想关就关，关掉立刻回到平面形象（关掉之后连原生都不碰，所以绝不会因为 Live2D 出问题而崩）。之前只能敲命令，现在点一下就行。② **她说话时会动一下** —— 聊天里她要是说了「哈哈/开心/喜欢」这类话，星梦页的模型会跟着做一个反应动作（用的是 Live2D 模型自带的待机/反应动作，不额外耗电）。这两件都不影响聊天：动不了就当无事发生。",
+      "why": "能自己开关，而且她更有反应了"
     }
   ]
 }
