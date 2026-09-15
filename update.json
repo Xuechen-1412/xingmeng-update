@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.62",
-  "versionCode": 126,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/Xuechen-1412/xingmeng-update/master/xingmeng-1.1.1.62.apk",
+  "versionName": "1.1.1.63",
+  "versionCode": 127,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/Xuechen-1412/xingmeng-update/master/xingmeng-1.1.1.63.apk",
   "size": 22804639,
   "sha256": "15b33d67c9b54f32cb62b153458ff9278453d90590aa97bd24554371fcba4ca1",
   "notes": [
     {
-      "t": "她说话能读出来了（B1）",
-      "d": "设置页多了一行「🔊 她说话时读出来」，打开之后她回的每句话会用**手机自带的朗读**读出来 —— 用的是系统 TTS：不联网、不花钱、不要权限。气泡上也可以，想只读某一条就点它旁边的 🔊。**注意**：这台手机（华为）我没有检测到可用的朗读引擎 ✗，所以打开后可能没有声音 —— 那不是 bug，是这台机器没装引擎（华为机型常见）。换一台带 Google/讯飞等朗读引擎的手机就能出声。不想听就在设置页关掉，关掉之后只是不出声，聊天一切照旧。",
-      "why": "她终于能出声了（取决于手机有没有朗读引擎）"
+      "t": "表情包更顺手了（B2）",
+      "d": "一个很小的改动但每天都用得上：**你最近用过的表情会自动排到最前面**。私聊、群聊、频道三个表情面板共用同一份顺序，所以在哪儿发都一样；关掉 App 再打开还记得。以前每次都要在几百个表情里翻半天，现在常用的就在头一排。",
+      "why": "发表情不用翻半天了"
     }
   ]
 }
