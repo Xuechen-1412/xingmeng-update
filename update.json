@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.93",
-  "versionCode": 157,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.93.apk",
-  "size": 18229647,
-  "sha256": "cc839a98c221f9dacc0e8cb15c59e18a83cd942bf34537abc7804c6bd69544b6",
+  "versionName": "1.1.1.94",
+  "versionCode": 158,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.94.apk",
+  "size": 18229711,
+  "sha256": "14e1fa23cf2ac9a74e41eabda85b8f6aa370b75a4d0dc2fbcd666e48650f31af",
   "notes": [
     {
-      "t": "修：星梦页「跟她说说话」那行文字顶出卡片",
-      "d": "你反馈的这个 ✓ 那行「最后一句聊天记录」比较长时会**一行顶着卡片边跑出去** ✗ 因为它在横向排布里默认不肯收缩 ✗ 现在给它：允许收缩 ✓ + **最多两行超出省略** ✓ + 长单词也能断行 ✓。那行现在稳稳待在卡片里 ✓ 内容太长也不会顶出去 ✓",
-      "why": "星梦页那行文字不再溢出"
+      "t": "修：星梦页那行文字仍然溢出（这次找到了真原因）",
+      "d": "上一版我加了\"两行截断\"但**界面一点没变** ✗ 因为那行文字的样式是用 **id** 写的（`#petLastLine` ✓）而我的规则用的是 class ✗ —— **id 的优先级比 class 高** ✗ 我那条被压住了 ✗。现在直接按 id 写 ✓ 优先级对等 + 我的文件后加载 → 生效 ✓ 那行现在最多两行、超出省略 ✓ 稳稳待在卡片里 ✓ 「去聊天」按钮也回来了 ✓",
+      "why": "星梦页那行文字真的不溢出了"
     }
   ]
 }
