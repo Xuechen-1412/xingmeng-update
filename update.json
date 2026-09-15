@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.54",
-  "versionCode": 118,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/Xuechen-1412/xingmeng-update/master/xingmeng-1.1.1.54.apk",
-  "size": 22798611,
-  "sha256": "ea1aeae221b729b08fe49dd557092d0b62f46e7f32fcab095b3ce484c9bf8768",
+  "versionName": "1.1.1.55",
+  "versionCode": 119,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/Xuechen-1412/xingmeng-update/master/xingmeng-1.1.1.55.apk",
+  "size": 22799012,
+  "sha256": "60cd94370698aa96b92cc3155c6b9ea68df9bb2e36efecaea188db07ec1f59d9",
   "notes": [
     {
-      "t": "星梦页换成 Live2D 了：会呼吸眨眼的真角色",
-      "d": "星梦页那块不再是平面图，是一个**真正的 Live2D 模型**（Cubism SDK 驱动）：会呼吸起伏、会眨眼、会播待机动作，切后台再回来不崩。位置由网页算好交给原生渲染层（对齐是算出来的，不依赖机型），浮层透明，只在角色身上盖住网页。这一版装的模型是 SDK 自带的示例角色（Hiyori），换自己的模型只要替换 assets 里的模型目录 + 一行路径。",
-      "why": "桌宠第一次真的动起来了"
+      "t": "给 Live2D 加了个本地开关（关掉就回到平面形象）",
+      "d": "Live2D 是原生渲染 —— 万一某个机型上它出问题，那是整个 App 崩，网页这边拦不住（JS 抓不到原生崩溃）。所以留一个本地开关：关掉之后**连原生都不碰**，星梦页回到原来那张平面形象，绝对不会崩。用法：出问题时在控制台跑一句 localStorage.setItem('pet.live2d.on', 'false') 就立刻生效。这是我上一版的设计失误补上的（可选功能不该有能力把主程序带崩）。",
+      "why": "万一它出问题，你能立刻关掉"
     }
   ]
 }
