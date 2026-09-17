@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.118",
-  "versionCode": 182,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.118.apk",
-  "size": 18243623,
-  "sha256": "b8a6454c7a03318d37e50c0689d91e91aea63e7bda989252ae37935ca26139d1",
+  "versionName": "1.1.1.119",
+  "versionCode": 183,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.119.apk",
+  "size": 18243655,
+  "sha256": "b40bddb0e07c37e556b016fb11e0da87341d9590c4a586d052e69d706f2f79be",
   "notes": [
     {
-      "t": "删除动态的确认框也换了（第 4 处）",
-      "d": "接着换白框 ✓「删掉这条动态？」换成了 App 自己的确认框 ✓。进度 36 处 → **已换 4 处**（改名 ✓ 撤回 ✓ 评论 ✓ 删除动态 ✓）✓ 剩下 32 处继续一处处来 ✓",
-      "why": "删动态时不再是白框"
+      "t": "兑换码输入框也换了（第 5 处）",
+      "d": "接着换白框 ✓「输入兑换码 / 卡密」换成了 App 自己的输入框 ✓。进度 36 处 → **已换 5 处**（改名 ✓ 撤回 ✓ 评论 ✓ 删动态 ✓ 兑换码 ✓）✓ 剩下 31 处继续 ✓",
+      "why": "兑换时不再是白框"
     }
   ]
 }
