@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.133",
-  "versionCode": 197,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.133.apk",
-  "size": 18244894,
-  "sha256": "25de731ca6cf8bfc98f66f9c5bf25e03a47660eac667eb45cb455db220cecfb3",
+  "versionName": "1.1.1.134",
+  "versionCode": 198,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.134.apk",
+  "size": 18244896,
+  "sha256": "a2c3ebca6044337f4d4c3e609dd2a959a78e5784c22d942579b1a2d2ab7796cd",
   "notes": [
     {
-      "t": "清本机频道记录的确认框也换了（第 20 处）",
-      "d": "接着换白框 ✓「清掉本机上频道的聊天记录？（服务器上的还在）」换成了 App 自己的确认框 ✓。同样先读一眼宿主 ✓ 确认体只是\"清本机 + 提示\"没有同步依赖 ✓ 才给它加 async ✓。进度 36 处 → **已换 20 处** ✓（过半 ✓）剩 16 处 ✓ 发布前照例过闸门 ✓",
-      "why": "清频道记录不再是白框"
+      "t": "群昵称的输入框也换了（第 21 处）",
+      "d": "接着换白框 ✓「我在这个群里的昵称」换成了 App 自己的输入框 ✓。这处很顺 ✓：read 一眼确认处理器本来就是 async ✓ 直接换 ✓。进度 36 处 → **已换 21 处** ✓ 剩 15 处 ✓ 发布前照例过闸门 ✓ 静态+e2e 全绿 ✓",
+      "why": "群昵称不再是白框"
     }
   ]
 }
