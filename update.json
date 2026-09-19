@@ -1,13 +1,13 @@
 {
-  "versionName": "1.1.1.140",
-  "versionCode": 204,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.140.apk",
-  "size": 18245392,
-  "sha256": "ea125d70927f42228a98d2e9535fec03532b57340a6276b4b65583530ad100f4",
+  "versionName": "1.1.1.141",
+  "versionCode": 205,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.141.apk",
+  "size": 18245485,
+  "sha256": "adce4d264a24b4bb81466ca52cedfd1704d1b072d13cce518601f7637e2bff18",
   "notes": [
     {
-      "t": "清空长期记忆的确认框也换了（第 28 处）",
-      "d": "接着换白框 ✓「清空长期记忆？（聊天记录不受影响）」换成了 App 自己的确认框 ✓。脚本先查宿主是不是 async ✓ 是才换 ✓ 换完语法自检 ✓ 有问题就整体回滚 ✓。进度 36 处 → **已换 28 处** ✓ 剩 8 处 ✓ 发布前照例过闸门 ✓",
+      "t": "清空长期记忆的确认框也换了（第 29 处）",
+      "d": "接着换白框 ✓「清空长期记忆？（聊天记录不受影响）」换成了 App 自己的确认框 ✓。这处要先给函数加 async ✗ —— 我先 read 了函数体 ✓ 确认它只是\"清记忆字段 + 重画两处 + 提示\" ✓ 没有同步依赖 ✓ **而且 grep 了全部调用点** ✓（只有一个点击处理器 ✓ 测试里没调它 ✓ 不牵扯测试 ✓）才动手 ✓。进度 36 处 → **已换 29 处** ✓ 剩 7 处 ✓",
       "why": "清空记忆不再是白框"
     }
   ]
