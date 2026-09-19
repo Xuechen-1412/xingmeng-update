@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.157",
-  "versionCode": 221,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.157.apk",
-  "size": 18249146,
-  "sha256": "f6a573ff7a9abe1d7829291123da4d5be9919e67112fddc86746794afa01dcba",
+  "versionName": "1.1.1.158",
+  "versionCode": 222,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.158.apk",
+  "size": 18247299,
+  "sha256": "855dae6b20a09793bcec123d98bf9975028656da22f2d80df74d59fd4d9d3050",
   "notes": [
     {
-      "t": "更新下载加速（这一版真正生效了）",
-      "d": "你说下载慢 ✓ 原因是**只有一个下载源**（jsDelivr ✓ 国内有时被限速 ✗）而且失败只会重试同一个 ✓。现在：① 自动准备**四路下载源** ✓（jsDelivr → ghproxy → gh-proxy → GitHub 直连 ✓）② 一个源不行就**自动换下一个** ✓ 界面会写\"第 2/4 个源：xxx\" ✓ ③ **记住这次成功的那个** ✓ 下次更新直接从快的开始 ✓ —— 第一次可能还要试一下 ✓ 之后就快 ✓",
-      "why": "下载慢/卡住会自动换源"
+      "t": "按你的要求：去掉\"所有密钥的余额\"那块",
+      "d": "你说删掉 ✓ 那就删了 ✓ —— 用量页恢复成原来的样子 ✓（本机用量 + 官方余额 + 历史回溯 ✓ 都还在 ✓ 只是不再多出\"所有密钥\"那一段 ✓）。⚠️ **下载加速保留** ✓（四路源自动切换 + 记住最快那个 ✓ 那是你要的 ✓ 没动 ✓）",
+      "why": "用量页回到你习惯的样子"
     }
   ]
 }
