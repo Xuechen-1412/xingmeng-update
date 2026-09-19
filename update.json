@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.127",
-  "versionCode": 191,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.127.apk",
-  "size": 18244367,
-  "sha256": "482f20f38261afbd80d7fd1fbddb6488d646e0e297c3e5f3089ef9921f38263d",
+  "versionName": "1.1.1.128",
+  "versionCode": 192,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.128.apk",
+  "size": 18244487,
+  "sha256": "9d166765a9382cf6738c2bb38da57ae83639508fde1a8f3ad6f958a58399fca0",
   "notes": [
     {
-      "t": "导入备份的确认框也换了（第 16 处）",
-      "d": "接着换白框 ✓「导入备份会把本机数据覆盖掉，继续？」换成了 App 自己的确认框 ✓。进度 36 处 → **已换 16 处** ✓ 剩 20 处 ✓ 流程照旧：read 一眼宿主 → 一次一处 → 静态+e2e 全绿 → 才发布 ✓",
-      "why": "导入确认不再是白框"
+      "t": "退出登录的确认框也换了（第 17 处）",
+      "d": "接着换白框 ✓「退出登录？本机缓存的聊天记录、记忆和用量会清掉……」换成了 App 自己的确认框 ✓。这处要先给处理器加 async ✗（它原本是普通箭头函数 ✓ 我先读了一遍确认\"只是清本机 + 回设置页\"没有同步依赖 ✓ 才动手 ✓）。进度 36 处 → **已换 17 处** ✓ 剩 19 处 ✓",
+      "why": "退出登录不再是白框"
     }
   ]
 }
