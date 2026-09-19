@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.134",
-  "versionCode": 198,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.134.apk",
-  "size": 18244896,
-  "sha256": "a2c3ebca6044337f4d4c3e609dd2a959a78e5784c22d942579b1a2d2ab7796cd",
+  "versionName": "1.1.1.135",
+  "versionCode": 199,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.135.apk",
+  "size": 18244932,
+  "sha256": "c734f6b0904dce59b917792447b019db1b013a3e2d09273be6945d0e8b1761fc",
   "notes": [
     {
-      "t": "群昵称的输入框也换了（第 21 处）",
-      "d": "接着换白框 ✓「我在这个群里的昵称」换成了 App 自己的输入框 ✓。这处很顺 ✓：read 一眼确认处理器本来就是 async ✓ 直接换 ✓。进度 36 处 → **已换 21 处** ✓ 剩 15 处 ✓ 发布前照例过闸门 ✓ 静态+e2e 全绿 ✓",
-      "why": "群昵称不再是白框"
+      "t": "移出成员的确认框也换了（第 22~23 处）",
+      "d": "接着换白框 ✓「把某人移出群？」换成了 App 自己的确认框 ✓。这处有两行**完全一样**的调用 ✓ 而且都在 async 处理器里 ✓ 所以一次替换两处 ✓（read 一眼确认过两边宿主都是 async ✓ 才用替换全部 ✓ —— 不是盲替 ✓）。进度 36 处 → **已换 23 处** ✓ 剩 13 处 ✓ 发布前照例过闸门 ✓",
+      "why": "移出成员不再是白框"
     }
   ]
 }
