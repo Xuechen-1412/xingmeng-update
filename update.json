@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.141",
-  "versionCode": 205,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.141.apk",
-  "size": 18245485,
-  "sha256": "adce4d264a24b4bb81466ca52cedfd1704d1b072d13cce518601f7637e2bff18",
+  "versionName": "1.1.1.142",
+  "versionCode": 206,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.142.apk",
+  "size": 18245641,
+  "sha256": "7ea07b59febbca2ead2e2b84875d6c5cdac0d562698ab34f1f5ff531e7f64c66",
   "notes": [
     {
-      "t": "清空长期记忆的确认框也换了（第 29 处）",
-      "d": "接着换白框 ✓「清空长期记忆？（聊天记录不受影响）」换成了 App 自己的确认框 ✓。这处要先给函数加 async ✗ —— 我先 read 了函数体 ✓ 确认它只是\"清记忆字段 + 重画两处 + 提示\" ✓ 没有同步依赖 ✓ **而且 grep 了全部调用点** ✓（只有一个点击处理器 ✓ 测试里没调它 ✓ 不牵扯测试 ✓）才动手 ✓。进度 36 处 → **已换 29 处** ✓ 剩 7 处 ✓",
-      "why": "清空记忆不再是白框"
+      "t": "搜群聊的输入框也换了（第 30 处）",
+      "d": "接着换白框 ✓「找什么？（在这个群里搜）」换成了 App 自己的输入框 ✓。这处要先给函数加 async ✗ —— 我 read 了函数体 ✓ 确认只是\"搜一遍 + 滚到命中那条 + 提示\"没有同步依赖 ✓。进度 36 处 → **已换 30 处** ✓（83% ✓）剩 6 处 ✓ 发布前照例过闸门 ✓",
+      "why": "搜群聊不再是白框"
     }
   ]
 }
