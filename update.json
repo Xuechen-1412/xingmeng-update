@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.131",
-  "versionCode": 195,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.131.apk",
-  "size": 18244561,
-  "sha256": "c88aa61acdaa4464358aa1fa2a96fa6f30c6862d562a2da80c6012e9db89630f",
+  "versionName": "1.1.1.132",
+  "versionCode": 196,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.132.apk",
+  "size": 18244670,
+  "sha256": "2e2574dba415d7e7289bc7a8a66a131e3fdaa106110fdb69ddd19954b643cc4f",
   "notes": [
     {
-      "t": "改群名字的输入框也换了（第 18 处）",
-      "d": "接着换白框 ✓「群名字（最长 16 字）」换成了 App 自己的输入框 ✓。这处也很顺 ✓：read 一眼确认处理器本来就是 async ✓ 直接换 ✓（同一段里那个「清掉本机群记录」的确认框**不是** async ✗ 按纪律先不动 ✓）。进度 36 处 → **已换 18 处** ✓ 发布前照例过了闸门 ✓ 静态+e2e 全绿 ✓",
-      "why": "改群名不再是白框"
+      "t": "清本机群记录的确认框也换了（第 19 处）",
+      "d": "接着换白框 ✓「清掉本机上这个群的聊天记录？（服务器上的还在）」换成了 App 自己的确认框 ✓。这处要先给处理器加 async ✗（它原本是普通箭头函数 ✓ 我先读了一遍确认\"只是清本机、重画、提示\"没有同步依赖 ✓ 才动手 ✓）。进度 36 处 → **已换 19 处** ✓ 发布前照例过闸门 ✓",
+      "why": "清本机记录不再是白框"
     }
   ]
 }
