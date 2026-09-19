@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.145",
-  "versionCode": 209,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.145.apk",
-  "size": 18245992,
-  "sha256": "71aa18b2096cf2f2356970970d69f2753a5dd23eaf4c37fe0c07ce43e4886602",
+  "versionName": "1.1.1.146",
+  "versionCode": 210,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.146.apk",
+  "size": 18246041,
+  "sha256": "bc4c1aec0d83b96486dbbca06ee728cb89b5ba8fc759d7fafae8bfd08cb047e9",
   "notes": [
     {
-      "t": "清本机群记录的第三处调用点也换了（第 35 处）",
-      "d": "接着换白框 ✓「清掉本机上这个群的聊天记录？」这处在代码里也是**三处**入口 ✗ 之前漏了第三处 ✓ 这次补上 ✓。进度：36 处 → **剩 6 处** ✓（其中 3 处牵扯测试 ✗ 会在连测试一起改时收掉 ✓）发布前照例过闸门 ✓",
-      "why": "清本机群记录三个入口都不再是白框"
+      "t": "好友分组改名的输入框也换了（第 36 处）",
+      "d": "接着换白框 ✓「把「某分组」改成：」换成了 App 自己的输入框 ✓。同样先读一眼宿主 ✓ 确认体只是\"改名 + 存 + 重画\"没有同步依赖 ✓ 才给它加 async ✓。进度：36 处 → **剩 5 处** ✓ 发布前照例过闸门 ✓",
+      "why": "分组改名不再是白框"
     }
   ]
 }
