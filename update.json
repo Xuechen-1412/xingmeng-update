@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.124",
-  "versionCode": 188,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.124.apk",
-  "size": 18244208,
-  "sha256": "0be351c1ccbfc87a8a2b819cea2a2363a7bc57bd8dca1df78fb64a2f81a50b72",
+  "versionName": "1.1.1.125",
+  "versionCode": 189,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.125.apk",
+  "size": 18244273,
+  "sha256": "e03b6e88ac281dd6a726a04a055db6dcd70da022031cc4209aebf251285dfc56",
   "notes": [
     {
-      "t": "群备注的输入框也换了（第 13 处）",
-      "d": "接着换白框 ✓「给这个群起个备注」换成了 App 自己的输入框 ✓。这一处比前面几处难一点 ✗：它的处理器原本是**普通函数** ✓ 所以要**先给它加 async** ✗ 才能用等待弹框 ✓ —— 我先 read 出来看清了\"它只是问一句、存一下、没有同步依赖\" ✓ 才动手 ✓（这是那 20 处\"不能快换\"的典型 ✓ 不是不能换 ✗ 是每处都得先读一眼 ✓）。静态 82/82 ✓ e2e 264/0 ✓ 全绿才发 ✓。进度 36 处 → **已换 13 处** ✓",
-      "why": "群备注不再是白框"
+      "t": "搜聊天的输入框也换了（第 14 处）",
+      "d": "接着换白框 ✓「找什么？（在这个聊天里搜）」换成了 App 自己的输入框 ✓。到这一处为止，模式已经很稳 ✓：read 看清宿主 → 一次一处 → 全绿才发 ✓。进度 36 处 → **已换 14 处** ✓ 剩 22 处 ✓（多数宿主不是 async ✗ 要顺带把处理器也改成 async ✓ 每处都先 read 一眼 ✓）",
+      "why": "搜聊天不再是白框"
     }
   ]
 }
