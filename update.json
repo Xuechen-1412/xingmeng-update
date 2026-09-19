@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.132",
-  "versionCode": 196,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.132.apk",
-  "size": 18244670,
-  "sha256": "2e2574dba415d7e7289bc7a8a66a131e3fdaa106110fdb69ddd19954b643cc4f",
+  "versionName": "1.1.1.133",
+  "versionCode": 197,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.133.apk",
+  "size": 18244894,
+  "sha256": "25de731ca6cf8bfc98f66f9c5bf25e03a47660eac667eb45cb455db220cecfb3",
   "notes": [
     {
-      "t": "清本机群记录的确认框也换了（第 19 处）",
-      "d": "接着换白框 ✓「清掉本机上这个群的聊天记录？（服务器上的还在）」换成了 App 自己的确认框 ✓。这处要先给处理器加 async ✗（它原本是普通箭头函数 ✓ 我先读了一遍确认\"只是清本机、重画、提示\"没有同步依赖 ✓ 才动手 ✓）。进度 36 处 → **已换 19 处** ✓ 发布前照例过闸门 ✓",
-      "why": "清本机记录不再是白框"
+      "t": "清本机频道记录的确认框也换了（第 20 处）",
+      "d": "接着换白框 ✓「清掉本机上频道的聊天记录？（服务器上的还在）」换成了 App 自己的确认框 ✓。同样先读一眼宿主 ✓ 确认体只是\"清本机 + 提示\"没有同步依赖 ✓ 才给它加 async ✓。进度 36 处 → **已换 20 处** ✓（过半 ✓）剩 16 处 ✓ 发布前照例过闸门 ✓",
+      "why": "清频道记录不再是白框"
     }
   ]
 }
