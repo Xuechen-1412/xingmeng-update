@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.156",
-  "versionCode": 220,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.156.apk",
-  "size": 18248838,
-  "sha256": "8769b49e374ba29d95b1e5ac1bfb01c0c76d0641392611b0c8818131b1d725b4",
+  "versionName": "1.1.1.157",
+  "versionCode": 221,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.157.apk",
+  "size": 18249146,
+  "sha256": "f6a573ff7a9abe1d7829291123da4d5be9919e67112fddc86746794afa01dcba",
   "notes": [
     {
-      "t": "更新下载加速：多个源自动切换 + 记住最快那个",
-      "d": "你说下载慢 ✓ 原因是**只有一个下载源**（jsDelivr ✓ 国内有时会被限速 ✗）而且失败时只会重试同一个 ✓。现在：① 自动准备**多个下载源** ✓（jsDelivr → ghproxy → gh-proxy → GitHub 直连 ✓）② 一个源失败就**自动换下一个** ✓ 界面上会写\"第 2/4 个源：xxx\" ✓ ③ **记住这次成功的那个源** ✓ 下次更新**直接从快的那个开始** ✓。所以第一次可能还要试一下 ✓ 之后就快了 ✓",
-      "why": "更新下载更快、卡住会自动换源"
+      "t": "更新下载加速（这一版真正生效了）",
+      "d": "你说下载慢 ✓ 原因是**只有一个下载源**（jsDelivr ✓ 国内有时被限速 ✗）而且失败只会重试同一个 ✓。现在：① 自动准备**四路下载源** ✓（jsDelivr → ghproxy → gh-proxy → GitHub 直连 ✓）② 一个源不行就**自动换下一个** ✓ 界面会写\"第 2/4 个源：xxx\" ✓ ③ **记住这次成功的那个** ✓ 下次更新直接从快的开始 ✓ —— 第一次可能还要试一下 ✓ 之后就快 ✓",
+      "why": "下载慢/卡住会自动换源"
     }
   ]
 }
