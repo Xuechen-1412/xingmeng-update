@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.158",
-  "versionCode": 222,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.158.apk",
-  "size": 18247299,
-  "sha256": "855dae6b20a09793bcec123d98bf9975028656da22f2d80df74d59fd4d9d3050",
+  "versionName": "1.1.1.159",
+  "versionCode": 223,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.159.apk",
+  "size": 18247257,
+  "sha256": "baa3803dfd05ab0088d03507e6cb826546d85a93bf4f5f92bb1155acdecfdaf7",
   "notes": [
     {
-      "t": "按你的要求：去掉\"所有密钥的余额\"那块",
-      "d": "你说删掉 ✓ 那就删了 ✓ —— 用量页恢复成原来的样子 ✓（本机用量 + 官方余额 + 历史回溯 ✓ 都还在 ✓ 只是不再多出\"所有密钥\"那一段 ✓）。⚠️ **下载加速保留** ✓（四路源自动切换 + 记住最快那个 ✓ 那是你要的 ✓ 没动 ✓）",
-      "why": "用量页回到你习惯的样子"
+      "t": "清干净：余额总览的残留调用也删了",
+      "d": "上一版删了那块功能 ✓ 但**漏了一行调用** ✗（外面有 try/catch 兜着 ✓ 所以不会崩 ✓ 但不干净 ✓）这一版补掉 ✓ 现在全代码里搜不到任何残留 ✓ 用量页与加它之前**完全一样** ✓。⚠️ 下载加速保留 ✓（四路源 + 记住最快 ✓）✓",
+      "why": "用量页干净如初"
     }
   ]
 }
