@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.125",
-  "versionCode": 189,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.125.apk",
-  "size": 18244273,
-  "sha256": "e03b6e88ac281dd6a726a04a055db6dcd70da022031cc4209aebf251285dfc56",
+  "versionName": "1.1.1.126",
+  "versionCode": 190,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.126.apk",
+  "size": 18244293,
+  "sha256": "462c14c31ecf3eac289891c19be9c21f05c4204ab2cabfaa936fabbe15373773",
   "notes": [
     {
-      "t": "搜聊天的输入框也换了（第 14 处）",
-      "d": "接着换白框 ✓「找什么？（在这个聊天里搜）」换成了 App 自己的输入框 ✓。到这一处为止，模式已经很稳 ✓：read 看清宿主 → 一次一处 → 全绿才发 ✓。进度 36 处 → **已换 14 处** ✓ 剩 22 处 ✓（多数宿主不是 async ✗ 要顺带把处理器也改成 async ✓ 每处都先 read 一眼 ✓）",
-      "why": "搜聊天不再是白框"
+      "t": "导入备份时\"粘贴内容\"的输入框也换了（第 15 处）",
+      "d": "接着换白框 ✓ 导入备份时如果剪贴板里没东西 ✓ 会弹出来让你自己粘 ✓ 那个输入框现在是 App 自己的了 ✓（深色玻璃 + 青色描边 ✓）。进度 36 处 → **已换 15 处** ✓ 剩 21 处 ✓ 每处先 read 一眼宿主 ✓ 一次一处 ✓ 全绿才发 ✓",
+      "why": "粘贴备份不再是白框"
     }
   ]
 }
