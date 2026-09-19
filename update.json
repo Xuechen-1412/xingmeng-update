@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.130",
-  "versionCode": 194,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.130.apk",
-  "size": 18244565,
-  "sha256": "a73009858348adf4eef39c70a9bfa2805cfd02133f4a6a01c279dc14c74ef0c4",
+  "versionName": "1.1.1.131",
+  "versionCode": 195,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.131.apk",
+  "size": 18244561,
+  "sha256": "c88aa61acdaa4464358aa1fa2a96fa6f30c6862d562a2da80c6012e9db89630f",
   "notes": [
     {
-      "t": "群公告的输入框也换了（第 17 处）",
-      "d": "接着换白框 ✓「群公告（最长 200 字）」换成了 App 自己的输入框 ✓（深色玻璃 + 青色描边 ✓）。这处很顺 ✓：read 一眼就确认处理器本来就是 async ✓ 直接换 ✓ 不用动结构 ✓。**而且这一版开始，发布前先过闸门** ✓（`node tools/ship.js` ✓ 静态+e2e 全绿才继续 ✓ —— 今晚我两次把红的版本发出去 ✗ 现在这条路在代码上被堵死了 ✓）。进度 36 处 → **已换 17 处** ✓",
-      "why": "群公告不再是白框"
+      "t": "改群名字的输入框也换了（第 18 处）",
+      "d": "接着换白框 ✓「群名字（最长 16 字）」换成了 App 自己的输入框 ✓。这处也很顺 ✓：read 一眼确认处理器本来就是 async ✓ 直接换 ✓（同一段里那个「清掉本机群记录」的确认框**不是** async ✗ 按纪律先不动 ✓）。进度 36 处 → **已换 18 处** ✓ 发布前照例过了闸门 ✓ 静态+e2e 全绿 ✓",
+      "why": "改群名不再是白框"
     }
   ]
 }
