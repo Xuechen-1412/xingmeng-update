@@ -1,13 +1,13 @@
 {
-  "versionName": "1.1.1.154",
-  "versionCode": 218,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.154.apk",
-  "size": 18248220,
-  "sha256": "14a6d5de50aab200a2b371e1459826c902a4f2cccacc1daf29350e318c18f6c1",
+  "versionName": "1.1.1.155",
+  "versionCode": 219,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.155.apk",
+  "size": 18248289,
+  "sha256": "63bedc6383273a6492b23a5eee305d4bec4df858ab8c2891569939a5cc9ea919",
   "notes": [
     {
       "t": "修：余额总览一直显示\"查不到\"",
-      "d": "你报的\"显示查不到\"我查到原因了 ✓：读接口返回时我用了 `res.body` ✗ 而 App 里既有那段用的是 **`res.text`** ✓ —— 字段名取错 → 解析出来是空对象 → 每一家都显示\"查不到\" ✓（我照自己猜的形状写 ✗ 没照既有的抄 ✓ 这是我的错 ✓）。现在改对了 ✓ 点开用量页应该能看到每一家的真实余额 ✓ 查不到才会再写\"密钥或网络\" ✓",
+      "d": "你报的\"显示查不到\"找到原因了 ✓：读接口返回时我写了 `res.body` ✗ 而 App 里既有那段用的是 **`res.text`** ✓ —— 字段名取错 → 解析出来是空对象 → 每一家都显示\"查不到\" ✓（我照自己猜的形状写 ✗ 没照既有的抄 ✓ 这是我的错 ✓）。现在改对了 ✓ 进「状态 → 用量」应该能看到每一家的真实余额 ✓",
       "why": "余额能正常显示了"
     }
   ]
