@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.139",
-  "versionCode": 203,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.139.apk",
-  "size": 18245402,
-  "sha256": "ddbcfabda29d5e2d27ccacc867e4328cd7dc5e0dc4adfa584ea2a943350c015d",
+  "versionName": "1.1.1.140",
+  "versionCode": 204,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.140.apk",
+  "size": 18245392,
+  "sha256": "ea125d70927f42228a98d2e9535fec03532b57340a6276b4b65583530ad100f4",
   "notes": [
     {
-      "t": "删分组的确认框也换了（第 27 处）",
-      "d": "接着换白框 ✓「删掉分组「某组」？里面的人会回到默认分组」换成了 App 自己的确认框 ✓。同样先读一眼宿主 ✓ 确认体只是\"改分组字段 + 重画 + 提示\"没有同步依赖 ✓ 才加 async ✓。进度 36 处 → **已换 27 处** ✓（75% ✓）剩 9 处 ✓ 发布前照例过闸门 ✓",
-      "why": "删分组不再是白框"
+      "t": "清空长期记忆的确认框也换了（第 28 处）",
+      "d": "接着换白框 ✓「清空长期记忆？（聊天记录不受影响）」换成了 App 自己的确认框 ✓。脚本先查宿主是不是 async ✓ 是才换 ✓ 换完语法自检 ✓ 有问题就整体回滚 ✓。进度 36 处 → **已换 28 处** ✓ 剩 8 处 ✓ 发布前照例过闸门 ✓",
+      "why": "清空记忆不再是白框"
     }
   ]
 }
