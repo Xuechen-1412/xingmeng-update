@@ -1,14 +1,14 @@
 {
-  "versionName": "1.1.1.146",
-  "versionCode": 210,
-  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.146.apk",
-  "size": 18246041,
-  "sha256": "bc4c1aec0d83b96486dbbca06ee728cb89b5ba8fc759d7fafae8bfd08cb047e9",
+  "versionName": "1.1.1.147",
+  "versionCode": 211,
+  "url": "https://cdn.jsdelivr.net/gh/Xuechen-1412/xingmeng-update@master/xingmeng-1.1.1.147.apk",
+  "size": 18246083,
+  "sha256": "2c87f4effa5bb0dc20152aaaca86e37792a7f552298c8445bc07710c57274f4f",
   "notes": [
     {
-      "t": "好友分组改名的输入框也换了（第 36 处）",
-      "d": "接着换白框 ✓「把「某分组」改成：」换成了 App 自己的输入框 ✓。同样先读一眼宿主 ✓ 确认体只是\"改名 + 存 + 重画\"没有同步依赖 ✓ 才给它加 async ✓。进度：36 处 → **剩 5 处** ✓ 发布前照例过闸门 ✓",
-      "why": "分组改名不再是白框"
+      "t": "加好友时\"选分组\"的输入框也换了（剩 4 处）",
+      "d": "接着换白框 ✓ 加好友时点「分组」那个输入框换成了 App 自己的 ✓。这处要先给处理器加 async ✗：read 一眼确认体只是\"选一个分组名 + 必要时新建 + 显示\"没有同步依赖 ✓。进度：36 处 → **剩 4 处** ✓（其中 3 处牵扯测试 ✗ 会在连测试一起改时收掉 ✓）发布前照例过闸门 ✓",
+      "why": "选分组不再是白框"
     }
   ]
 }
